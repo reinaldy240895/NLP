@@ -25,11 +25,11 @@
               <td></td>
               <td></td>
               <!-- tampilan kata kedua -->
-              <td ng-repeat="kata in kata2 track by $index"><strong>{{kata}}</strong></td>
+              <td ng-repeat="kata in kata2 track by $index"><b>{{kata}}</b></td>
             </tr>
             <!-- tampilan kata pertama -->
             <tr ng-repeat="line in matrix ">
-              <td><strong>{{(" " + kata1).substring($index, $index+1)}}</strong></td>
+              <td><b>{{(" " + kata1).substring($index, $index+1)}}</b></td>
               <!-- proses menampilkan nilai distance -->
               <td ng-repeat="nilai in line track by $index">
               <!-- pengecekan nilai distance terendah akan dibedakan dengan bold -->
